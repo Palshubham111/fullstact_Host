@@ -8,7 +8,7 @@ function Home() {
 
   useEffect(() =>{
 
-    fetch("http://localhost:3005/")
+    fetch("https://fullstact-host.vercel.app/")
   .then((res) => res.json())
   .then((data) => 
     
